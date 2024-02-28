@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import { Given,When,Then, And } from "cypress-cucumber-preprocessor/steps"; // have to import these, so that cypress can recognise cucumber keywords
+import { Given,When,Then, And } from "@badeball/cypress-cucumber-preprocessor"; // have to import these, so that cypress can recognise cucumber keywords
 
 Given("We visit knoldus Website", function(){ // we can make an anonymus function as well here, use "()=>" instead of function() 
 cy.visit("https://www.knoldus.com/home")
